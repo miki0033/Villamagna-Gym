@@ -1,5 +1,3 @@
-import React from "react";
-
 const YoutubeFrames = ({ video }: { video: string }) => {
   return (
     <div className="w-full h-auto p-4">

@@ -1,5 +1,3 @@
-import React from "react";
-
 const TextDiv = () => {
   return (
     <div className="m-2 p-2 bg-red-500 text-white font-semibold">
