@@ -35,11 +35,11 @@ function Sidebar(props: { linkList: ILink[] }) {
 
       <div
         id="sidebar"
-        className={`fixed top-0 left-0 h-full w-64  transition-all duration-300 ease-in-out z-50 ${
+        className={`fixed top-0 left-0 h-4/5 w-64  transition-all duration-300 ease-in-out z-50 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } rounded-lg  `}
       >
-        <div className="bg-white m-4 rounded-lg w-[90%] h-full">
+        <div className="bg-white opacity-95 m-4 rounded-lg w-[90%] h-full">
           <div className="flex justify-end pt-4 pr-4">
             <button onClick={toggleSidebar}>
               <svg

@@ -1,11 +1,12 @@
 const YoutubeFrames = ({ video }: { video: string }) => {
   return (
-    <div className="w-full h-auto p-4">
+    <div className="flex w-full h-auto justify-center p-4">
       <iframe
-        width="100%"
-        height="300"
+        width="560"
+        height="315"
         src={video}
         title="YouTube video player"
+        frameborder="0"
         allow="accelerometer; 
             autoplay;
             allowfullscreen; 
@@ -14,6 +15,8 @@ const YoutubeFrames = ({ video }: { video: string }) => {
             gyroscope; 
             picture-in-picture; 
             web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
       ></iframe>
     </div>
   );

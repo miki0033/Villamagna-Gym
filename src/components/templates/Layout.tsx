@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="h-full bg-black text-center text-default-600 ">
+    <div className="bg-black text-center text-default-600 ">
       <Header />
       <Main children={<Outlet />} />
       <Footer />

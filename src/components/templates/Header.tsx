@@ -12,7 +12,10 @@ const Header = () => {
     { text: "Dati", href: "./data" },
   ];
   return (
-    <div id="header" className="grid grid-cols-3 justify-evenly px-4 py-2">
+    <div
+      id="header"
+      className="grid grid-cols-3 justify-evenly justify-items-center items-center px-4 py-2"
+    >
       {!mediaQuery ? (
         <>
           <Sidebar linkList={linkList} />
