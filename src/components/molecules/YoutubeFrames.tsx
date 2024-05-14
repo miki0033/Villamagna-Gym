@@ -6,7 +6,6 @@ const YoutubeFrames = ({ video }: { video: string }) => {
         height="315"
         src={video}
         title="YouTube video player"
-        frameborder="0"
         allow="accelerometer; 
             autoplay;
             allowfullscreen; 
@@ -15,8 +14,6 @@ const YoutubeFrames = ({ video }: { video: string }) => {
             gyroscope; 
             picture-in-picture; 
             web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
       ></iframe>
     </div>
   );
