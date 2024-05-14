@@ -1,6 +1,6 @@
 import Contacts from "../molecules/Contacts";
-import TextDiv from "../molecules/TextDiv";
-import YoutubeFrames from "../molecules/YoutubeFrames";
+import TextDiv from "../atoms/TextDiv";
+import YoutubeFrames from "../atoms/YoutubeFrames";
 import { Link } from "react-router-dom";
 
 const Home = () => {

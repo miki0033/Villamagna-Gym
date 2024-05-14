@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar";
 import ILink from "../../interfaces/ILink";
 
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Logo from "../molecules/Logo";
+import Logo from "../atoms/Logo";
 
 const Header = () => {
   const mediaQuery = useMediaQuery("(min-width:576px)");

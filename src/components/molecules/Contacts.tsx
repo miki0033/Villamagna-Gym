@@ -1,4 +1,4 @@
-import ContactIcon from "./ContactIcon";
+import ContactIcon from "../atoms/ContactIcon";
 
 const Contact = () => {
   return (
