@@ -5,10 +5,10 @@ const Contact = () => {
     <div className="contact w-full bg-red-500 mt-2 pb-8 gap-2 flex flex-col items-center text-black font-medium text-xl">
       <p>Per ulteriori informazioni contattimi su:</p>
 
-      <div className="flex flex-row md:flex-col gap-4 w-4/5 flex-nowrap justify-evenly">
+      <div className="flex md:flex-row flex-col gap-4 w-4/5 flex-nowrap justify-evenly">
         <ContactIcon
           icon={"./icons8-whatsapp-colored.png"}
-          text={"320 088 0052"}
+          text={"123 456 7890"}
           alt={"Whatsapp"}
         ></ContactIcon>
         <ContactIcon
